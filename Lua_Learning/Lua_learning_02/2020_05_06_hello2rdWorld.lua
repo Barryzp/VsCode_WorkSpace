@@ -35,12 +35,14 @@ print(counter);
 print("----------------------for数值循环divide----------------------")
 
 local index = 0;
+local index2 = 1
 for index=1,10,1 do
     index=9;
+    index2=90;
     print(index);
 end
 print("index = "..index);
-
+print('index2 = '..index2);
 
 print("----------------------for泛型循环divide----------------------")
 local table2={"hello","world","I'm","start","happy."};
