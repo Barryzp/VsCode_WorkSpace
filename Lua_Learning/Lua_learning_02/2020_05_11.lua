@@ -2,6 +2,10 @@ print("----------------------运算符divide----------------------");
 local var1=false;
 local var2=20;
 
+local lotsOfStr=[==[
+    [[assa]]
+]==]
+
 if(var1 and var2) then
     print("those value are not nil.")
 else
@@ -28,6 +32,9 @@ aObject.var=90;
 aObject.print=function ( )
     print("a internal function for testing oop.")
 end
+
+
+print("")
 
 aTemper.print();
 print("is same as valueType: "..aTemper.var);
