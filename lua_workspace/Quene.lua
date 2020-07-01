@@ -1,3 +1,8 @@
+--[[
+    Description:useful quene.
+    Author:Barry.zp
+]]
+
 Quene ={
     datas = {},
     count=0
@@ -32,3 +37,11 @@ end
 function Quene:getCount()
     return self.count
 end
+
+function Quene:new(table)
+    table = table or {}
+    setmetatable(table,{__index=self})
+    return table
+end
+
+return Quene
