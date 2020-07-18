@@ -1,4 +1,19 @@
-#########################################[TeamInfo:]#########################################
+{
+    special_sniper_spirit = 17405,
+    optional_sniper_spirits =
+    {
+    },
+    role_lists =
+    {
+    },
+    special_sniper_time = 289,
+    nomal_free_count = 0,
+    surplus_high_count = 0,
+    nomal_free_time = 0,
+    high_free_time = 0,
+}
+
+
 Table
 {
     systemDifficultyTextId = 265,
