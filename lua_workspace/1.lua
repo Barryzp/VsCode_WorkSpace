@@ -18,7 +18,6 @@ local str2 = "我吃大西瓜"
 
 print(#str2)
 
-
 local t={}
 
 function unshift(value)
@@ -28,7 +27,6 @@ end
 function shift()
     return table.remove(t,1)
 end
-
 
 unshift(1)
 unshift(2)
