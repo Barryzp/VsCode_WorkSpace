@@ -1,26 +1,26 @@
-function computeRdValue(values,probablities)
-    local allProb = 0
-    local probLen = #probablities
-    for i = 1, probLen do
-       local prob = probablities[i]
-       allProb = allProb + prob
+local LOG = require("log")
+
+local reverse = function (tab)
+    local len = #tab
+    local mod = len % 2
+    local endId = math.floor(len / 2)
+    for i = 1, endId do
+        local item = tab[i]
+        local swapId = len - i + 1
+        local backItem = tab[swapId]
+        tab[i],tab[swapId] = backItem,item
     end
 
-    math.randomseed(os.time())
-    local rdNum = math.random(0,allProb)
-    print("random: "..rdNum)
-    local lastProb = 0
-    local idx = nil
-    for i = 1, probLen do
-        local itemProb = probablities[i] + lastProb
-        if rdNum <= itemProb then
-            idx = i
-            break
-        end
-        lastProb = itemProb
-    end
-
-    return values[idx]
+    return tab
 end
 
-print(computeRdValue({20,100,45},{100,200,100}))
+local tab = {
+    name = "barry",
+    age = 28,
+    wife = {
+        name = "alice",
+        age = 24
+    }
+}
+
+LOG.printTab(tab)

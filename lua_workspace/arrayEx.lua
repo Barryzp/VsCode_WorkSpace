@@ -43,6 +43,24 @@ function array.shuffle (array)
     end
 end
 
+function array.reverse(tab)
+    if array.isEmpty(tab) then
+        return
+    end
+
+    local len = #tab
+    local mod = len % 2
+    local endId = math.floor(len / 2)
+    for i = 1, endId do
+        local item = tab[i]
+        local swapId = len - i + 1
+        local backItem = tab[swapId]
+        tab[i],tab[swapId] = backItem,item
+    end
+
+    return tab
+end
+
 local t = {
     50,60,80,90,100
 }
@@ -58,6 +76,7 @@ end)
 for i = 1, #temp do
     print(temp[i])
 end
+
 
 print("isContain 80?",array.contain(t,1))
 
