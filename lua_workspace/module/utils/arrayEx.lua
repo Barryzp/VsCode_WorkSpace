@@ -61,6 +61,34 @@ function array.reverse(tab)
     return tab
 end
 
+function array.isEmpty(tab)
+    if tab == nil then
+        return true
+    end
+    return next(tab) == nil
+end
+
+function array.indexOf(tab,ele)
+    for i = 1, #tab do
+        if ele == tab[i] then
+            return i
+        end
+    end
+
+    return -1
+end
+
+function array.dedup(arr)
+    local tempArr = {}
+    for i = 1, #arr do
+        if indexOf(arr,arr[i]) == i then
+            table.insert(tempArr,arr[i])
+        end
+    end
+
+    return tempArr
+end
+
 local t = {
     50,60,80,90,100
 }
