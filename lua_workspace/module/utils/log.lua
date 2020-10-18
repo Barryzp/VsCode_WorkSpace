@@ -27,4 +27,6 @@ log.printTab = function (tab,tuckunder)
     print(tuckunderStr..'}')
 end
 
+log.print = print
+
 return log
