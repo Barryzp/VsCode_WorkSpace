@@ -20,3 +20,9 @@ end
 aFun(function ()
     print("this is a callback.",array[2])
 end)
+
+
+-- use generetor使用真正的迭代器：“生成器”
+local realItr = function (t,actf)
+    
+end
