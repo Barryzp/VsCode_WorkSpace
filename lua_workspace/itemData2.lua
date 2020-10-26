@@ -1,0 +1,20 @@
+Table
+{
+    indexes = 1,
+    system_defined = ,
+    sequence = 7,
+    banner = 1,
+    closetime = 1603026000,
+    act_tag = 8,
+    sticky_time = 1600621200,
+    system_id = 95,
+    maincity_banner = 1004,
+    opentime = 1568826000,
+    act_banner = 0,
+    id = 3,
+    name = 等级冲冲冲,
+    description = 1,
+    real_opentime_sec = 1568912400,
+    real_closetime_sec = 1568912400,
+    tag = 1,
+}

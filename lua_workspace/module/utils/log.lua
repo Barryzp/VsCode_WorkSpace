@@ -27,6 +27,12 @@ log.printTab = function (tab,tuckunder)
     print(tuckunderStr..'}')
 end
 
-log.print = print
-
-return log
+LOG = function (...)
+    local args = {...}
+    local type = type(args[1])
+    if type == "table" then
+        log.printTab(args[1])
+    else
+        print(...)
+    end
+end

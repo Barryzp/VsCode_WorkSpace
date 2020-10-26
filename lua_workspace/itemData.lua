@@ -1,108 +1,107 @@
-#########################################[ItemData: ]#########################################
+<=======================================[Msg: ]=======================================>
 Table
 {
-    cData =
+    gift_const_infos =
     {
-        overlay = 99,
-        gem_type = 1,
-        time_type = 0,
-        access_type_id =
+        1 =
         {
-            1 = 103,
-            2 = 2,
-            3 = 1,
+            items_light =
+            {
+                1 = 1,
+            },
+            group_tag = 2,
+            description = 礼包第一期,
+            price =
+            {
+                id = 1,
+                count = 1,
+            },
+            id = 1,
+            old_price =
+            {
+                id = 1,
+                count = 1,
+            },
+            gift_goods =
+            {
+                1 =
+                {
+                    id = 6011,
+                    count = 1,
+                },
+            },
+            buy_num = 1,
         },
-        destory_type = 1,
-        level = 3,
-        destory_num = 36,
-        last_time = 0,
-        goods_id = 27,
-        attribute_value =
+        2 =
         {
-            1 = 90,
+            items_light =
+            {
+                1 = 1,
+            },
+            group_tag = 1,
+            description = 钻石礼包,
+            price =
+            {
+                id = 18001,
+                count = 1000,
+            },
+            id = 2,
+            old_price =
+            {
+                id = 18001,
+                count = 1000,
+            },
+            gift_goods =
+            {
+                1 =
+                {
+                    id = 141002,
+                    count = 1,
+                },
+            },
+            buy_num = 1,
         },
-        name_show_id = 223,
-        destory_id = 18009,
-        equip_level = 0,
-        attribute_type =
+        3 =
         {
-            1 = 6,
+            items_light =
+            {
+                1 = 1,
+            },
+            group_tag = 1,
+            description = 礼包a,
+            price =
+            {
+                id = 1,
+                count = 1,
+            },
+            id = 1,
+            old_price =
+            {
+                id = 1,
+                count = 1,
+            },
+            gift_goods =
+            {
+                1 =
+                {
+                    id = 141001,
+                    count = 1,
+                },
+            },
+            buy_num = 1,
         },
-        id = 9002,
-        gem_sign = 1,
-        icon = piece/nfy_gem_icon/ui_longyu_baoshi_lv.png,
-        quality = 300,
-        desc_id = 238,
-        name_id = 4002,
     },
-    sData =
+    gift_infos =
     {
-        freeze_num = 0,
-        baseType = 4,
-        baseInfo =
+        1 =
         {
-            time_limit = 0,
-            index = 77,
-            id = 9002,
-            count = 4,
-            bind_type = 1,
-            is_new_got = true,
+            gift_id = 1,
+            buy_num = 1,
         },
-    },
-}
-
-
-#########################################[ItemData: ]#########################################
-Table
-{
-    cData =
-    {
-        overlay = 99,
-        gem_type = 3,
-        time_type = 0,
-        access_type_id =
+        2 =
         {
-            1 = 103,
-            2 = 2,
-            3 = 1,
-        },
-        destory_type = 1,
-        level = 1,
-        destory_num = 4,
-        last_time = 0,
-        goods_id = 27,
-        attribute_value =
-        {
-            1 = 15,
-            2 = 15,
-        },
-        name_show_id = 223,
-        destory_id = 18009,
-        equip_level = 0,
-        attribute_type =
-        {
-            1 = 6,
-            2 = 6,
-        },
-        id = 9131,
-        gem_sign = 1,
-        icon = piece/nfy_gem_icon/ui_longyu_baoshi_lv.png,
-        quality = 100,
-        desc_id = 238,
-        name_id = 4000,
-    },
-    sData =
-    {
-        freeze_num = 0,
-        baseType = 4,
-        baseInfo =
-        {
-            time_limit = 0,
-            index = 76,
-            id = 9131,
-            count = 10,
-            bind_type = 1,
-            is_new_got = false,
+            gift_id = 2,
+            buy_num = 1,
         },
     },
 }
