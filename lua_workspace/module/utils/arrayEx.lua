@@ -89,22 +89,19 @@ function array.dedup(arr)
     return tempArr
 end
 
-local t = {
-    50,60,80,90,100
-}
-
-local temp = array.filterEx(t,function (item)
-    if item>60 then
-        return true
-    else
-        return false
-    end
-end)
-
-for i = 1, #temp do
-    print(temp[i])
+function array.pop(tab)
+    return table.remove(tab,#tab)
 end
 
+function array.push(tab,ele)
+    table.insert(tab,ele)
+end
 
-print("isContain 80?",array.contain(t,1))
+function array.shift(tab)
+    return table.remove(tab,1)
+end
+
+function array.unshift(tab,ele)
+    return table.insert(tab,1,ele)
+end
 
