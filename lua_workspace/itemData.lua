@@ -1,151 +1,106 @@
-<=======================================[Msg: ]=======================================>
+<=======================================[Ranklist Resp：]=======================================>
 Table
 {
-    item_info =
+    world_boss_info =
     {
-        1 =
+        id = 1,
+        person_damage_rank =
         {
-            id = 91410,
-            count = 0,
-            show_weight = 0,
+            1 =
+            {
+                role_id = 2199859,
+                rank_info =
+                {
+                    name = 傅景lkj1,
+                    president_id = 0,
+                    order = 1,
+                    president_name = ,
+                    icon = 2,
+                    damage = 69087,
+                },
+            },
+            2 =
+            {
+                role_id = 2199861,
+                rank_info =
+                {
+                    name = 尹吕lkj1,
+                    president_id = 0,
+                    order = 2,
+                    president_name = ,
+                    icon = 4,
+                    damage = 68611,
+                },
+            },
+            3 =
+            {
+                role_id = 2199886,
+                rank_info =
+                {
+                    name = 段鲁志宏,
+                    president_id = 0,
+                    order = 3,
+                    president_name = ,
+                    icon = 1,
+                    damage = 11445,
+                },
+            },
+            4 =
+            {
+                role_id = 2199856,
+                rank_info =
+                {
+                    name = 杨穆lkj1,
+                    president_id = 0,
+                    order = 4,
+                    president_name = ,
+                    icon = 1,
+                    damage = 353,
+                },
+            },
         },
-        2 =
+        remain_fight_times = 1,
+        union_rank =
         {
-            id = 91420,
-            count = 0,
-            show_weight = 0,
-        },
-        3 =
-        {
-            id = 91430,
-            count = 0,
-            show_weight = 0,
-        },
-        4 =
-        {
-            id = 91440,
-            count = 0,
-            show_weight = 0,
-        },
-        5 =
-        {
-            id = 91550,
-            count = 0,
-            show_weight = 0,
-        },
-        6 =
-        {
-            id = 91560,
-            count = 0,
-            show_weight = 0,
-        },
-        7 =
-        {
-            id = 91570,
-            count = 0,
-            show_weight = 0,
-        },
-        8 =
-        {
-            id = 91580,
-            count = 0,
-            show_weight = 0,
-        },
-        9 =
-        {
-            id = 92410,
-            count = 0,
-            show_weight = 0,
-        },
-        10 =
-        {
-            id = 92420,
-            count = 0,
-            show_weight = 0,
-        },
-        11 =
-        {
-            id = 92430,
-            count = 0,
-            show_weight = 0,
-        },
-        12 =
-        {
-            id = 92540,
-            count = 0,
-            show_weight = 0,
-        },
-        13 =
-        {
-            id = 92550,
-            count = 0,
-            show_weight = 0,
-        },
-        14 =
-        {
-            id = 92560,
-            count = 0,
-            show_weight = 0,
-        },
-        15 =
-        {
-            id = 92570,
-            count = 0,
-            show_weight = 0,
-        },
-        16 =
-        {
-            id = 92580,
-            count = 0,
-            show_weight = 0,
-        },
-        17 =
-        {
-            id = 93410,
-            count = 0,
-            show_weight = 0,
-        },
-        18 =
-        {
-            id = 93520,
-            count = 0,
-            show_weight = 0,
-        },
-        19 =
-        {
-            id = 93530,
-            count = 0,
-            show_weight = 0,
-        },
-        20 =
-        {
-            id = 93540,
-            count = 0,
-            show_weight = 0,
-        },
-        21 =
-        {
-            id = 93550,
-            count = 0,
-            show_weight = 0,
-        },
-        22 =
-        {
-            id = 93560,
-            count = 0,
-            show_weight = 0,
-        },
-        23 =
-        {
-            id = 93570,
-            count = 0,
-            show_weight = 0,
-        },
-        24 =
-        {
-            id = 93580,
-            count = 0,
-            show_weight = 0,
+            1 =
+            {
+                union_id = 2025848833,
+                rank_info =
+                {
+                    name = jkljkl1,
+                    president_id = 0,
+                    order = 1,
+                    president_name = ,
+                    icon = 892,
+                    damage = 69087,
+                },
+            },
+            2 =
+            {
+                union_id = 2025848834,
+                rank_info =
+                {
+                    name = lkjlkj1,
+                    president_id = 0,
+                    order = 2,
+                    president_name = ,
+                    icon = 892,
+                    damage = 68964,
+                },
+            },
+            3 =
+            {
+                union_id = 2025848836,
+                rank_info =
+                {
+                    name = waiwang1,
+                    president_id = 0,
+                    order = 3,
+                    president_name = ,
+                    icon = 892,
+                    damage = 11445,
+                },
+            },
         },
     },
 }
