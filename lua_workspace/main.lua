@@ -1,9 +1,8 @@
 require("module.utils.log")
 require("module.utils.arrayEx")
 
-local a = {}
-a.foo = function (self)
-    LOG(self)
+if 1 == "1" then
+    LOG("~~~~~~~~~")
+else
+    LOG("!!!!!!!!!!")
 end
-
-a:foo()

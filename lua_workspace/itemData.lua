@@ -1,106 +1,124 @@
-<=======================================[Ranklist Resp：]=======================================>
+<=======================================[AllServers: ]=======================================>
 Table
 {
-    world_boss_info =
+    1 =
     {
-        id = 1,
-        person_damage_rank =
-        {
-            1 =
-            {
-                role_id = 2199859,
-                rank_info =
-                {
-                    name = 傅景lkj1,
-                    president_id = 0,
-                    order = 1,
-                    president_name = ,
-                    icon = 2,
-                    damage = 69087,
-                },
-            },
-            2 =
-            {
-                role_id = 2199861,
-                rank_info =
-                {
-                    name = 尹吕lkj1,
-                    president_id = 0,
-                    order = 2,
-                    president_name = ,
-                    icon = 4,
-                    damage = 68611,
-                },
-            },
-            3 =
-            {
-                role_id = 2199886,
-                rank_info =
-                {
-                    name = 段鲁志宏,
-                    president_id = 0,
-                    order = 3,
-                    president_name = ,
-                    icon = 1,
-                    damage = 11445,
-                },
-            },
-            4 =
-            {
-                role_id = 2199856,
-                rank_info =
-                {
-                    name = 杨穆lkj1,
-                    president_id = 0,
-                    order = 4,
-                    president_name = ,
-                    icon = 1,
-                    damage = 353,
-                },
-            },
-        },
-        remain_fight_times = 1,
-        union_rank =
-        {
-            1 =
-            {
-                union_id = 2025848833,
-                rank_info =
-                {
-                    name = jkljkl1,
-                    president_id = 0,
-                    order = 1,
-                    president_name = ,
-                    icon = 892,
-                    damage = 69087,
-                },
-            },
-            2 =
-            {
-                union_id = 2025848834,
-                rank_info =
-                {
-                    name = lkjlkj1,
-                    president_id = 0,
-                    order = 2,
-                    president_name = ,
-                    icon = 892,
-                    damage = 68964,
-                },
-            },
-            3 =
-            {
-                union_id = 2025848836,
-                rank_info =
-                {
-                    name = waiwang1,
-                    president_id = 0,
-                    order = 3,
-                    president_name = ,
-                    icon = 892,
-                    damage = 11445,
-                },
-            },
-        },
+        IsRecommend = 0,
+        Name = 外网压测服,
+        IsInitialed = 1,
+        ID = 138,
+        Status = 2,
+        ServerPort = 17001,
+        ServerIP = 120.131.3.74,
+    },
+    2 =
+    {
+        IsRecommend = 1,
+        Name = 全民炫斗,
+        IsInitialed = 1,
+        ID = 137,
+        Status = 2,
+        ServerPort = 16011,
+        ServerIP = 120.131.3.119,
+    },
+    3 =
+    {
+        IsRecommend = 1,
+        Name = 任务剧情测试服,
+        IsInitialed = 1,
+        ID = 136,
+        Status = 2,
+        ServerPort = 13602,
+        ServerIP = 192.168.13.202,
+    },
+    4 =
+    {
+        IsRecommend = 1,
+        Name = 战斗测试服,
+        IsInitialed = 1,
+        ID = 135,
+        Status = 2,
+        ServerPort = 13502,
+        ServerIP = 192.168.13.203,
+    },
+    5 =
+    {
+        IsRecommend = 1,
+        Name = 测试4服,
+        IsInitialed = 1,
+        ID = 134,
+        Status = 2,
+        ServerPort = 13402,
+        ServerIP = 192.168.13.204,
+    },
+    6 =
+    {
+        IsRecommend = 1,
+        Name = 测试3服,
+        IsInitialed = 0,
+        ID = 133,
+        Status = 2,
+        ServerPort = 13302,
+        ServerIP = 192.168.13.205,
+    },
+    7 =
+    {
+        IsRecommend = 1,
+        Name = windows服_李彦霖,
+        IsInitialed = 1,
+        ID = 131,
+        Status = 2,
+        ServerPort = 19600,
+        ServerIP = 192.168.13.85,
+    },
+    8 =
+    {
+        IsRecommend = 1,
+        Name = 杨博Windows服,
+        IsInitialed = 0,
+        ID = 130,
+        Status = 2,
+        ServerPort = 19100,
+        ServerIP = 192.168.13.76,
+    },
+    9 =
+    {
+        IsRecommend = 1,
+        Name = win-李莘,
+        IsInitialed = 0,
+        ID = 128,
+        Status = 2,
+        ServerPort = 8107,
+        ServerIP = 192.168.13.78,
+    },
+    10 =
+    {
+        IsRecommend = 1,
+        Name = 测试2服,
+        IsInitialed = 0,
+        ID = 122,
+        Status = 2,
+        ServerPort = 9701,
+        ServerIP = 192.168.13.74,
+    },
+    11 =
+    {
+        IsRecommend = 0,
+        Name = 测试1服,
+        IsInitialed = 1,
+        ID = 120,
+        Status = 2,
+        ServerPort = 9001,
+        ServerIP = 192.168.13.200,
+    },
+    12 =
+    {
+        IsRecommend = 0,
+        Name = 外网WR,
+        IsInitialed = 1,
+        ID = 118,
+        Status = 2,
+        ServerPort = 23001,
+        ServerIP = 120.92.93.64,
     },
 }

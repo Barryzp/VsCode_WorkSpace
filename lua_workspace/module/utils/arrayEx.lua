@@ -105,3 +105,8 @@ function array.unshift(tab,ele)
     return table.insert(tab,1,ele)
 end
 
+function array.ranGet(array)
+    local len = #array
+    local idx = math.ceil(math.random() * len)
+    return array[idx]
+end
