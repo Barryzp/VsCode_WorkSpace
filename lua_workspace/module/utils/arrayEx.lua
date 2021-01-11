@@ -105,8 +105,36 @@ function array.unshift(tab,ele)
     return table.insert(tab,1,ele)
 end
 
+-- 分成若干份
+function array.split(arr,portionNum)
+    local len = #arr
+    if len < portionNum then
+        portionNum = len
+    end
+
+    local arrayEleNum = math.floor(len / portionNum)
+    local vals = {}
+    local counter = 0
+    local singleArray = {}
+    for i = 1, len do
+        counter = counter + 1
+        array.push(singleArray,arr[i])
+        if counter == arrayEleNum or i == len then
+            counter = 0
+            array.push(vals,singleArray)
+            singleArray = {}
+        end
+    end
+
+    return vals 
+end
+
 function array.ranGet(array)
     local len = #array
     local idx = math.ceil(math.random() * len)
     return array[idx]
+end
+
+function array.join(array,sperator)
+    return table.concat(array,sperator)
 end

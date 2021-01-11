@@ -1,8 +1,6 @@
 require("module.utils.log")
-require("module.utils.arrayEx")
+require("module.utils.Log")
 
-if 1 == "1" then
-    LOG("~~~~~~~~~")
-else
-    LOG("!!!!!!!!!!")
+if c == nil then
+    LOG("kkk")    
 end

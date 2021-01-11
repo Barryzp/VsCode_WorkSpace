@@ -36,3 +36,5 @@ LOG = function (...)
         print(...)
     end
 end
+
+return log
