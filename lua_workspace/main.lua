@@ -1,6 +1,7 @@
 require("module.utils.log")
-require("module.utils.Log")
+require("module.utils.arrayEx")
 
-if c == nil then
-    LOG("kkk")    
-end
+local t = {1,2,3,4,5}
+array.swap(t,1,3)
+
+LOG(t)

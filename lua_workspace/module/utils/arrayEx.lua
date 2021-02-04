@@ -138,3 +138,8 @@ end
 function array.join(array,sperator)
     return table.concat(array,sperator)
 end
+
+function array.swap(arr,idx1,idx2)
+    arr[idx1],arr[idx2] = arr[idx2],arr[idx1]
+    return arr
+end
