@@ -78,6 +78,34 @@ function array.indexOf(tab,ele)
     return -1
 end
 
+-- 两个数组求交集的补集
+function array.deduct(arr1, arr2, equalFun)
+    local aws = {}
+
+    local longArr = arr1
+    local shortArr = arr2
+    if #arr1 < #arr2 then
+        longArr = arr2
+        shortArr = arr1
+    end
+
+    for i = 1, #longArr do
+        local ele = longArr[i]
+        local idx = array.indexOf(shortArr, ele, equalFun)
+        if idx == -1 then
+            local shortEle = shortArr[i]
+            if not array.contain(aws, ele, equalFun) then
+                array.push(aws, ele) 
+            end
+            if not array.contain(aws, shortEle, equalFun) then
+                array.push(aws, shortEle)
+            end
+        end
+    end
+
+    return aws
+end
+
 function array.dedup(arr)
     local tempArr = {}
     for i = 1, #arr do

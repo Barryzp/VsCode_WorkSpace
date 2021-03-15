@@ -1,7 +1,7 @@
-require("module.utils.log")
 require("module.utils.arrayEx")
+require("module.utils.log")
 
-local t = {1,2,3,4,5}
-array.swap(t,1,3)
+local t1 = {1, 3, 5, 6, 7, 3, 8}
+local t2 = {1, 4, 5, 6}
 
-LOG(t)
+LOG(array.deduct(t1, t2))
