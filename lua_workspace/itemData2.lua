@@ -9,5 +9,7 @@ CameraManager:startFreeze(freezeId)
 
 -- 神器技能
 -- 是通过UI事件进行分发，和技能相关东西不太一样
+-- 不忘初心，方得始终
+
 
 --！！！需要看一下技能的释放了！
